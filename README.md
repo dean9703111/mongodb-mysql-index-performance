@@ -453,7 +453,7 @@ client.close()
 - 平均查詢時間: 6.7949e-06 秒
 - 資料大小: 53.1 MB
 
-### MongoDB 測試方案 3 ── Embedded Documents
+### ▋ MongoDB 測試方案 3 ── Embedded Documents
 
 第三個方案是上篇文章的方案，將統計數據紀錄到商品名稱（product_name）底下，並對「商品名稱(product_name)、紀錄時間(timestamp)」加上了 index。數據格式如下：
 
